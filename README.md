@@ -20,14 +20,20 @@ Since animals rely on their enclosure for their existence they must live in a si
 
 A maintenance service is conducted for zero or more enclosures. Because there is a variety of maintenance services, a service is denoted by a unique number and description of the respective activity. A curator may never perform a maintenance service or perform many. When a curator conducts a maintenance service for an enclosure, the date and any additional notes are recorded.
 
-If any of the animals appear to be diseased, injured, or stressed a curator is responsible for reporting them promptly to a veterinarian so that they can be treated. The
- 
-details of each Treatment type are stored and include a treatment code and a description. The date and time of the treatment and their results of it is recorded when an animal undergoes a treatment procedure by a veterinarian and a full description of the examination results.
+If any of the animals appear to be diseased, injured, or stressed a curator is responsible for reporting them promptly to a veterinarian so that they can be treated. The details of each Treatment type are stored and include a treatment code and a description. The date and time of the treatment and their results of it is recorded when an animal undergoes a treatment procedure by a veterinarian and a full description of the examination results.
 
-I created 4 views with justifications for each in the Create_Views.sql file.
+To View the Entity Relationship Diagram: ![ERD_Diagram.pdf](ERD_Diagram.pdf)
+
+To view the Relational Database Schema: ![Relational_Database_Schema.pdf](Relational_Database_Schema.pdf)
+
+To View the Data Dictionary: ![Data_Dictionary.pdf](Data_Dictionary.pdf)
+
+I created 4 views with justifications for each in the [Create_Views.sql](Create_Views.sql):
+1. The first view will be useful for curators to look at to check the time interval between the last time each animal was fed. This view also filters out the feeding time for the day so that curators can check the feeding tracker daily and not have to filter throughout a variety of date and time entries.
+2. Second, similarly to the above view, this view will be useful for curators as well. They will be able to filter the maintenance services performed within the current year and also see the time to date since the last service was performed.
+3. The third view will be helpful to curators to be able to see which animals are not on display in an exhibit. Animals may not be on display for two reasons – they have just arrived at the aquarium and they have not yet been assigned an exhibit yet, or they are diseased or sick are being treated in the quarantine enclosure by the veterinarians.
+4. The fourth view will be helpful to both curators and veterinarians to be able to easily see the number of animals located in each enclosure. This not only helps the curators assign animals to different enclosures ensuring that the enclosures are not overpopulated but it also helps the veterinarians check how many animals are under their care to give everyone a clear picture of the aquariums health.
 
 ## License
 
 This project is licensed under [**GNU GPL v3**](https://choosealicense.com/licenses/gpl-3.0/).
-
-
