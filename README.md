@@ -42,4 +42,4 @@ I created 4 views with justifications for each in the [Create_Views.sql](Create_
 
 ## License
 
-This project is licensed under [**GNU GPL v3**](https://choosealicense.com/licenses/gpl-3.0/).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
