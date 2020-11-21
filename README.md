@@ -1,4 +1,4 @@
-# Waikiki-Aquarium-Database
+# Waikiki Aquarium Database
 
 ## Description
 
