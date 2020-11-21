@@ -23,6 +23,10 @@ A maintenance service is conducted for zero or more enclosures. Because there is
 
 If any of the animals appear to be diseased, injured, or stressed a curator is responsible for reporting them promptly to a veterinarian so that they can be treated. The details of each Treatment type are stored and include a treatment code and a description. The date and time of the treatment and their results of it is recorded when an animal undergoes a treatment procedure by a veterinarian and a full description of the examination results.
 
+## Mock-Up
+
+![screenshot of database](images/database_screenshot.png)
+
 ## Databse Diagrams
 
 1. The Entity Relationship Diagram:
