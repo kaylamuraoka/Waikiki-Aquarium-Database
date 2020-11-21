@@ -34,7 +34,7 @@ If any of the animals appear to be diseased, injured, or stressed a curator is r
 ## Data Dictionary
 
 To View the Data Dictionary: ![Data_Dictionary.pdf](Data_Dictionary.pdf)
-![data dictionary image](Waikiki-Aquarium-Database/images/data_dictionary_img.png)
+![data dictionary image](./images/data_dictionary_img.png)
 
 #### I created 4 views with justifications for each in the [Create_Views.sql](Create_Views.sql):
 
