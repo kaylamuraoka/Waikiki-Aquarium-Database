@@ -31,9 +31,12 @@ If any of the animals appear to be diseased, injured, or stressed a curator is r
 2. The Relational Database Schema:
    ![screenshot of Relational Schema](./images/Relational_Database_Schema_Placeholder.jpg)
 
-To View the Data Dictionary: ![Data_Dictionary.pdf](Data_Dictionary.pdf)
+## Data Dictionary
 
-I created 4 views with justifications for each in the [Create_Views.sql](Create_Views.sql):
+To View the Data Dictionary: ![Data_Dictionary.pdf](Data_Dictionary.pdf)
+![data dictionary image](Waikiki-Aquarium-Database/images/data_dictionary_img.png)
+
+#### I created 4 views with justifications for each in the [Create_Views.sql](Create_Views.sql):
 
 1. The first view will be useful for curators to look at to check the time interval between the last time each animal was fed. This view also filters out the feeding time for the day so that curators can check the feeding tracker daily and not have to filter throughout a variety of date and time entries.
 2. Second, similarly to the above view, this view will be useful for curators as well. They will be able to filter the maintenance services performed within the current year and also see the time to date since the last service was performed.
